@@ -1,24 +1,30 @@
-
-.container{
-    margin:auto;
-    width: 300px;
-    height:300px
+.container {
+  margin: auto;
+  width: 300px;
+  height: 330px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: rgb(88, 47, 238);
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px rgb(88, 47, 238);
 }
-.boxRow{
-    display: flex;
-    margin: auto;
-    width: 300px;
-    height: 100px;
-    justify-content: space-between;
-    margin-bottom: 10px;
+.boxRow {
+  display: flex;
+  margin: auto;
+  width: 300px;
+  height: 100px;
+  justify-content: space-between;
+  margin-bottom: 15px;
 }
-.box{
-    background-color: rgb(215, 206, 255);
-  border: 1px solid rgb(88, 47, 238);
-    height: 100px;
-    width: 100px;
-    margin: 5px;
+.box {
+  background-color: rgb(215, 206, 255);
+  border: 2px solid white;
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 1px black;
 }
-.box:hover{
-    background-color: rgb(88, 47, 238);
+.box:hover {
+  background-color: rgb(88, 47, 238);
 }
