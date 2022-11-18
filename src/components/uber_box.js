@@ -15,11 +15,14 @@ function UberBox() {
           box.style.backgroundColor = "rgb(215, 206, 255)";
         }, index * 1000);
       });
+      setClickList([])
     }
   }, [clickList]);
 
   const clickHandler = (e) => {
+    if(!clickList.includes(e.target.id)){
     setClickList([...clickList, e.target.id]);
+    }
   };
   const createMatix = () => {
     let matrix = [];
